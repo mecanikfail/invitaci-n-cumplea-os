@@ -1,2 +1,90 @@
-# invitaci-n-cumplea-os
-Formato de Invitación de Cumpleaños
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Invitación de Cumpleaños</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+  }
+  .contenedor-principal {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Asegura que los hijos se estiren para ocupar todo el espacio disponible en altura */
+    max-width: 1000px;
+    margin: auto;
+  }
+  .invitacion-container, .imagen-container {
+    flex: 1;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .invitacion-container {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  .imagen-container {
+    background-image: url('con mama.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+  }
+  .invitacion-container h1 {
+    color: #ff6f61;
+  }
+  .invitacion-container p {
+    color: #333333;
+    margin: 15px 0;
+  }
+  .boton-confirmar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .video-container {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<div class="contenedor-principal">
+  <div class="imagen-container">
+    <!-- La imagen se agregará aquí con CSS -->
+  </div>
+  <div class="invitacion-container">
+    <!-- Contenido de la invitación aquí -->
+    <h1>🎈 ¡Estás Invitado! 🎈</h1>
+    <p>¡Hola!</p>
+    <p>Nos complace invitarte a la celebración del <strong>6º cumpleaños</strong> de nuestro pequeño gran héroe. Será una tarde llena de juegos, risas y diversión.</p>
+    <p><strong>Fecha:</strong> Sábado, 10 de junio<br>
+    <strong>Hora:</strong> 3:00 PM a 6:00 PM<br>
+    <strong>Lugar:</strong> Nuestra casa en [Dirección de la Casa]</p>
+    <p>Habrá golosinas, pastel de cumpleaños y muchas sorpresas. ¡No olvides traer tu mejor sonrisa y ganas de jugar!</p>
+    <p>Por favor, confirma tu asistencia antes del 1 de junio.</p>
+    <button class="boton-confirmar">Confirmar Asistencia</button>
+  </div>
+  </div>
+  <div class="video-container">
+    <video width="40%" height="auto" controls>
+      <source src="en bici.mp4" type="video/mp4">
+      
+    </video>
+  </div>
+</div>
+
+</body>
+</html>
